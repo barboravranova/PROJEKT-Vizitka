@@ -2,6 +2,77 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #b2bec3;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #d63031;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+a {
+    color: #FFFFFF;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.box {
+    background-color: #FFFFFF;
+    position: relative;
+    width: 550px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 150px; 
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 2px #828282;
+}
+
+.box img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #FFFFFF ;
+    border-radius: 50%;
+    position: absolute;
+    right: -75px;
+    top: -75px;
+}
+
+#twitterButton {
+    background-color: #1da1f2;
+}
+
+#facebookButton {
+    background-color:  #3b5998;
+}
+
+#twitterButton:hover {
+    background-color: #0b7bc1;
+}
+
+#facebookButton:hover {
+    background-color:  #2b406e;
+}
+
 /*
 BARVY:
 šedá na pozadí stránky:		 #b2bec3
@@ -13,4 +84,3 @@ tlačítko Twitter aktivní:	 #0b7bc1
 tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
-
